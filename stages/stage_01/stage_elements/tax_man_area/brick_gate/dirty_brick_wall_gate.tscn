@@ -1,6 +1,6 @@
-[gd_scene load_steps=7 format=3]
+[gd_scene load_steps=7 format=3 uid="uid://c7vnwwroq7va"]
 
-[ext_resource type="Script" path="res://stages/stage_01/stage_elements/tax_man_area/brick_gate/dirty_brick_wall_gate.gd" id="1_xbrta"]
+[ext_resource type="Script" uid="uid://bn15ehujd3fdi" path="res://stages/stage_01/stage_elements/tax_man_area/brick_gate/dirty_brick_wall_gate.gd" id="1_xbrta"]
 [ext_resource type="Texture2D" uid="uid://b4jcajha80arw" path="res://stages/stage_01/stage_elements/tax_man_area/brick_gate/brick_gate_back.png" id="2_m7y1y"]
 [ext_resource type="AnimationLibrary" uid="uid://d2vw4ctmhthi7" path="res://stages/stage_01/stage_elements/tax_man_area/brick_gate/tax_man_gate_anim_library.tres" id="2_qacur"]
 [ext_resource type="Texture2D" uid="uid://mlxuohwa50qd" path="res://stages/stage_01/stage_elements/tax_man_area/brick_gate/brick_gate_front.png" id="3_bplye"]

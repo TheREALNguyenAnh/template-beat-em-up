@@ -16,9 +16,9 @@ dest_files=["res://.godot/imported/laughter_01.png-6b2389a1350618581be59f61fb184
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false

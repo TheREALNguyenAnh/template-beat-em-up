@@ -16,9 +16,9 @@ dest_files=["res://.godot/imported/dash_10.png-c89f85a26eb5e0295e11c3aec29a9a62.
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false

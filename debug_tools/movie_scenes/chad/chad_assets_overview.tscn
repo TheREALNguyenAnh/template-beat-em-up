@@ -1,22 +1,22 @@
 [gd_scene load_steps=76 format=3 uid="uid://cprdohclv6lcb"]
 
-[ext_resource type="Script" path="res://debug_tools/movie_scenes/chad/chad_assets_overview.gd" id="1_r072d"]
-[ext_resource type="Script" path="res://stages/stage_01/day_cycle_modulate.gd" id="2_4iov2"]
+[ext_resource type="Script" uid="uid://cpr4teijqjnqe" path="res://debug_tools/movie_scenes/chad/chad_assets_overview.gd" id="1_r072d"]
+[ext_resource type="Script" uid="uid://bicmcwsi0dcxc" path="res://stages/stage_01/day_cycle_modulate.gd" id="2_4iov2"]
 [ext_resource type="Resource" uid="uid://cf424fk4f5263" path="res://stages/_base/day_cycle_data.tres" id="3_1q1ff"]
 [ext_resource type="PackedScene" uid="uid://chmbp4a1d41k0" path="res://stages/stage_01/stage_elements/skyboxes/skybox.tscn" id="3_w68qt"]
-[ext_resource type="Script" path="res://stages/stage_01/stage01_skybox.gd" id="4_5amai"]
+[ext_resource type="Script" uid="uid://kxvvcq1uc1i6" path="res://stages/stage_01/stage01_skybox.gd" id="4_5amai"]
 [ext_resource type="Texture2D" uid="uid://c7fphss6j8oey" path="res://stages/stage_01/stage_elements/buildings/cityscape_00.png" id="5_ykxql"]
 [ext_resource type="Texture2D" uid="uid://e161r1inmr0t" path="res://stages/stage_01/stage_elements/tax_man_area/tax_man_back_brick_wall_dirty.png" id="6_rn2d0"]
 [ext_resource type="Texture2D" uid="uid://bvnsmsil71bnt" path="res://stages/stage_01/stage_elements/tax_man_area/tax_man_tree_leftside.png" id="7_e8qjd"]
 [ext_resource type="Texture2D" uid="uid://clhyfh86x3q45" path="res://stages/stage_01/stage_elements/tax_man_area/tax_man_tree_rightside.png" id="8_lev3s"]
-[ext_resource type="Shader" path="res://stages/stage_01/hard_light.gdshader" id="9_pd2w1"]
+[ext_resource type="Shader" uid="uid://ss5jetlmr0o5" path="res://stages/stage_01/hard_light.gdshader" id="9_pd2w1"]
 [ext_resource type="Texture2D" uid="uid://bg164vx5yfm4o" path="res://stages/stage_01/stage_elements/tax_man_area/tax_man_windows.png" id="10_uosdy"]
 [ext_resource type="Texture2D" uid="uid://dx5n25lg03m3j" path="res://stages/stage_01/stage_elements/tax_man_area/tax_man_black_marble.png" id="11_grbnn"]
 [ext_resource type="Texture2D" uid="uid://dt36h10hb1mpc" path="res://stages/stage_01/stage_elements/tax_man_area/tax_man_floor_chess.png" id="12_uovhj"]
 [ext_resource type="Texture2D" uid="uid://ct0e5tvx2qiq6" path="res://stages/stage_01/stage_elements/decorations/area_2_bamboo1_2.png" id="13_pkped"]
 [ext_resource type="Texture2D" uid="uid://dtww3alsrhm43" path="res://stages/stage_01/stage_elements/tax_man_area/tax_man_pilar_leftside.png" id="14_saret"]
-[ext_resource type="Script" path="res://stages/stage_01/tax_man_room_light.gd" id="15_gl3ip"]
-[ext_resource type="Script" path="res://addons/quiver.beat_em_up/utilities/custom_nodes/quiver_sprite_repeater.gd" id="16_ftsna"]
+[ext_resource type="Script" uid="uid://uqr2umih0syf" path="res://stages/stage_01/tax_man_room_light.gd" id="15_gl3ip"]
+[ext_resource type="Script" uid="uid://b4qkiyk6vf2je" path="res://addons/quiver.beat_em_up/utilities/custom_nodes/quiver_sprite_repeater.gd" id="16_ftsna"]
 [ext_resource type="Texture2D" uid="uid://evnwrnbyt1jd" path="res://stages/stage_01/stage_elements/sidewalk/sidewalk_revised_0.png" id="17_id7iu"]
 [ext_resource type="Texture2D" uid="uid://iq7d0847x83h" path="res://stages/stage_01/stage_elements/sidewalk/sidewalk_revised_1.png" id="18_yxq5h"]
 [ext_resource type="Texture2D" uid="uid://ctvhqu3sfy08v" path="res://stages/stage_01/stage_elements/sidewalk/sidewalk_revised_2.png" id="19_oqrev"]
@@ -30,7 +30,7 @@
 [ext_resource type="Texture2D" uid="uid://b5niuxuhp4w3p" path="res://stages/stage_01/stage_elements/pavement/area_2_crosswalk.png" id="27_umc8v"]
 [ext_resource type="Texture2D" uid="uid://drgfnuqqfrg4b" path="res://stages/stage_01/stage_elements/pavement/tax_man_streetlines.png" id="28_d7u3f"]
 [ext_resource type="PackedScene" path="res://stages/stage_01/stage_elements/buildings/walls/brick_wall/brick_wall.tscn" id="29_lwomu"]
-[ext_resource type="Shader" path="res://stages/_base/skyboxes/gradient_map.gdshader" id="30_v0n6l"]
+[ext_resource type="Shader" uid="uid://bt6ae252tuxdm" path="res://stages/_base/skyboxes/gradient_map.gdshader" id="30_v0n6l"]
 [ext_resource type="Texture2D" uid="uid://d34upd6axohpi" path="res://stages/stage_01/stage_elements/buildings/pipes/drainpipe_body.png" id="31_wul4p"]
 [ext_resource type="Texture2D" uid="uid://dqgwlg6ha1ime" path="res://stages/stage_01/stage_elements/buildings/pipes/drainpipe_exit.png" id="32_c38g2"]
 [ext_resource type="Texture2D" uid="uid://d326gpsqdber" path="res://stages/stage_01/stage_elements/buildings/windows/standard/windows_1_1_50.png" id="33_31hem"]
@@ -39,7 +39,7 @@
 [ext_resource type="Texture2D" uid="uid://exocfq7eqej2" path="res://stages/stage_01/stage_elements/buildings/signs/anime_girl/anime_girl_poster_red.png" id="36_xbthd"]
 [ext_resource type="Texture2D" uid="uid://dtgtx0h0eh5y1" path="res://stages/stage_01/stage_elements/buildings/signs/anime_girl/anime_girl_poster_purlple.png" id="37_souc7"]
 [ext_resource type="PackedScene" path="res://stages/stage_01/stage_elements/buildings/signs/love_yourself/love_yourself_sign.tscn" id="38_4lm6g"]
-[ext_resource type="Script" path="res://addons/quiver.beat_em_up/utilities/custom_nodes/quiver_fence.gd" id="39_fnxyi"]
+[ext_resource type="Script" uid="uid://hvw7bdxg77q0" path="res://addons/quiver.beat_em_up/utilities/custom_nodes/quiver_fence.gd" id="39_fnxyi"]
 [ext_resource type="Texture2D" uid="uid://1cocp0o1ua5f" path="res://stages/stage_01/stage_elements/fence/chainlink_fence_middle_pole.png" id="40_d5wix"]
 [ext_resource type="Texture2D" uid="uid://dtc4d05g37g73" path="res://stages/stage_01/stage_elements/fence/chainlink_fence_revised__00.png" id="41_oe5y0"]
 [ext_resource type="Texture2D" uid="uid://bfsf12el1igux" path="res://stages/stage_01/stage_elements/fence/chainlink_fence_revised__01.png" id="42_fbie1"]
@@ -62,8 +62,8 @@
 [ext_resource type="PackedScene" path="res://stages/stage_01/stage_elements/gates/tori_gate/tori_gate.tscn" id="59_620hk"]
 [ext_resource type="PackedScene" path="res://stages/stage_01/stage_elements/tax_man_area/tax_man_throne.tscn" id="60_4c3jb"]
 [ext_resource type="PackedScene" path="res://stages/stage_01/stage_elements/tax_man_area/brick_gate/dirty_brick_wall_gate.tscn" id="61_i5301"]
-[ext_resource type="PackedScene" path="res://debug_tools/movie_scenes/chad/auto_chad_animation.tscn" id="62_mlkd6"]
-[ext_resource type="Shader" path="res://characters/enemies/tax_man/resources/silhouette.gdshader" id="62_q6rup"]
+[ext_resource type="PackedScene" uid="uid://chun2l6kftcgx" path="res://debug_tools/movie_scenes/chad/auto_chad_animation.tscn" id="62_mlkd6"]
+[ext_resource type="Shader" uid="uid://dhuisu0wlxcmr" path="res://characters/enemies/tax_man/resources/silhouette.gdshader" id="62_q6rup"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_fe6v1"]
 shader = ExtResource("9_pd2w1")
@@ -92,9 +92,9 @@ gradient = SubResource("Gradient_yy6d3")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_jq4kj"]
 shader = ExtResource("30_v0n6l")
+shader_parameter/gradient = SubResource("GradientTexture1D_bthp2")
 shader_parameter/is_active = true
 shader_parameter/show_grayscale = false
-shader_parameter/gradient = SubResource("GradientTexture1D_bthp2")
 
 [sub_resource type="Gradient" id="Gradient_0sq77"]
 resource_local_to_scene = true
@@ -108,9 +108,9 @@ gradient = SubResource("Gradient_0sq77")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_o8ik0"]
 shader = ExtResource("30_v0n6l")
+shader_parameter/gradient = SubResource("GradientTexture1D_w7qn6")
 shader_parameter/is_active = true
 shader_parameter/show_grayscale = false
-shader_parameter/gradient = SubResource("GradientTexture1D_w7qn6")
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_nuxeb"]
 polygon = PackedVector2Array(-30, -1178, 1345, 185, 125, 193, -47, 202)

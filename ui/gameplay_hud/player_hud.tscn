@@ -1,9 +1,9 @@
 [gd_scene load_steps=12 format=3 uid="uid://d3s26tp72j41g"]
 
 [ext_resource type="Theme" uid="uid://brlect5oi7d4w" path="res://ui/_base/theme_template.tres" id="1_2vgld"]
-[ext_resource type="Script" path="res://ui/gameplay_hud/player_hud.gd" id="1_i2ajm"]
-[ext_resource type="PackedScene" path="res://ui/gameplay_hud/player_health_bar/heath_bar.tscn" id="3_1cvt2"]
-[ext_resource type="Shader" path="res://stages/_base/skyboxes/gradient_map.gdshader" id="4_nvlcn"]
+[ext_resource type="Script" uid="uid://b70q6oruexysk" path="res://ui/gameplay_hud/player_hud.gd" id="1_i2ajm"]
+[ext_resource type="PackedScene" uid="uid://fejnij6noxrm" path="res://ui/gameplay_hud/player_health_bar/heath_bar.tscn" id="3_1cvt2"]
+[ext_resource type="Shader" uid="uid://bt6ae252tuxdm" path="res://stages/_base/skyboxes/gradient_map.gdshader" id="4_nvlcn"]
 [ext_resource type="PackedScene" uid="uid://bu5i02m11elee" path="res://ui/gameplay_hud/enemy_health_bar/enemy_health_bar.tscn" id="5_23ki3"]
 
 [sub_resource type="Gradient" id="Gradient_h6r38"]
@@ -14,9 +14,9 @@ gradient = SubResource("Gradient_h6r38")
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_4ynvs"]
 resource_local_to_scene = true
 shader = ExtResource("4_nvlcn")
+shader_parameter/gradient = SubResource("GradientTexture1D_rw4s5")
 shader_parameter/is_active = true
 shader_parameter/show_grayscale = false
-shader_parameter/gradient = SubResource("GradientTexture1D_rw4s5")
 
 [sub_resource type="Gradient" id="Gradient_bvxqj"]
 
@@ -26,9 +26,9 @@ gradient = SubResource("Gradient_bvxqj")
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_6e6mu"]
 resource_local_to_scene = true
 shader = ExtResource("4_nvlcn")
+shader_parameter/gradient = SubResource("GradientTexture1D_fwij3")
 shader_parameter/is_active = true
 shader_parameter/show_grayscale = false
-shader_parameter/gradient = SubResource("GradientTexture1D_fwij3")
 
 [node name="PlayerHud" type="VBoxContainer"]
 anchors_preset = -1

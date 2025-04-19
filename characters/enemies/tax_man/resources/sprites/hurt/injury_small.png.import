@@ -16,9 +16,9 @@ dest_files=["res://.godot/imported/injury_small.png-1be23e783a8f3b9e8f908959d51f
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false

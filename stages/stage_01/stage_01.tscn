@@ -1,18 +1,18 @@
 [gd_scene load_steps=105 format=3 uid="uid://bnoa0s3qnckt1"]
 
-[ext_resource type="PackedScene" path="res://stages/_base/base_stage.tscn" id="1_4lqd3"]
-[ext_resource type="Script" path="res://addons/quiver.beat_em_up/utilities/custom_nodes/quiver_sprite_repeater.gd" id="2_0ledp"]
-[ext_resource type="Script" path="res://stages/stage_01/stage_01.gd" id="2_08exp"]
+[ext_resource type="PackedScene" uid="uid://dlr2cyab2b8d" path="res://stages/_base/base_stage.tscn" id="1_4lqd3"]
+[ext_resource type="Script" uid="uid://b4qkiyk6vf2je" path="res://addons/quiver.beat_em_up/utilities/custom_nodes/quiver_sprite_repeater.gd" id="2_0ledp"]
+[ext_resource type="Script" uid="uid://cd0n0s777smsh" path="res://stages/stage_01/stage_01.gd" id="2_08exp"]
 [ext_resource type="PackedScene" uid="uid://chmbp4a1d41k0" path="res://stages/stage_01/stage_elements/skyboxes/skybox.tscn" id="3_pnjnx"]
-[ext_resource type="Script" path="res://stages/stage_01/day_cycle_modulate.gd" id="3_uswky"]
+[ext_resource type="Script" uid="uid://bicmcwsi0dcxc" path="res://stages/stage_01/day_cycle_modulate.gd" id="3_uswky"]
 [ext_resource type="Texture2D" uid="uid://dpx5oim35rvcq" path="res://stages/stage_01/stage_elements/pavement/street_revised_straight.png" id="4_0uw5r"]
-[ext_resource type="PackedScene" path="res://stages/stage_01/stage_elements/buildings/chicken_king/chicken_king.tscn" id="4_8mlpl"]
-[ext_resource type="PackedScene" path="res://stages/stage_01/stage_elements/buildings/walls/brick_wall/brick_wall.tscn" id="4_8ntk5"]
+[ext_resource type="PackedScene" uid="uid://ce8daiikx2t5a" path="res://stages/stage_01/stage_elements/buildings/chicken_king/chicken_king.tscn" id="4_8mlpl"]
+[ext_resource type="PackedScene" uid="uid://odq5jwgpq8ao" path="res://stages/stage_01/stage_elements/buildings/walls/brick_wall/brick_wall.tscn" id="4_8ntk5"]
 [ext_resource type="Resource" uid="uid://cf424fk4f5263" path="res://stages/_base/day_cycle_data.tres" id="4_y5lul"]
-[ext_resource type="PackedScene" path="res://stages/stage_01/stage_elements/decorations/lantern/lanterns.tscn" id="5_aembi"]
-[ext_resource type="PackedScene" path="res://stages/stage_01/stage_elements/decorations/christmas_lights/christmas_lights.tscn" id="5_cl8vk"]
-[ext_resource type="Script" path="res://stages/stage_01/stage01_skybox.gd" id="5_hj50d"]
-[ext_resource type="Shader" path="res://stages/_base/skyboxes/gradient_map.gdshader" id="5_iqlbw"]
+[ext_resource type="PackedScene" uid="uid://k26o3jrcn55g" path="res://stages/stage_01/stage_elements/decorations/lantern/lanterns.tscn" id="5_aembi"]
+[ext_resource type="PackedScene" uid="uid://yv13d41svtjd" path="res://stages/stage_01/stage_elements/decorations/christmas_lights/christmas_lights.tscn" id="5_cl8vk"]
+[ext_resource type="Script" uid="uid://kxvvcq1uc1i6" path="res://stages/stage_01/stage01_skybox.gd" id="5_hj50d"]
+[ext_resource type="Shader" uid="uid://bt6ae252tuxdm" path="res://stages/_base/skyboxes/gradient_map.gdshader" id="5_iqlbw"]
 [ext_resource type="Texture2D" uid="uid://bdv436i82wdj4" path="res://stages/stage_01/stage_elements/pavement/street_revised_curved.png" id="5_rhqxk"]
 [ext_resource type="Texture2D" uid="uid://evnwrnbyt1jd" path="res://stages/stage_01/stage_elements/sidewalk/sidewalk_revised_0.png" id="6_e0uvm"]
 [ext_resource type="Texture2D" uid="uid://c7fphss6j8oey" path="res://stages/stage_01/stage_elements/buildings/cityscape_00.png" id="6_rfrov"]
@@ -32,11 +32,11 @@
 [ext_resource type="Texture2D" uid="uid://gndch3lv12s5" path="res://stages/stage_01/stage_elements/buildings/windows/standard/windows_1_3_50.png" id="9_r3hf1"]
 [ext_resource type="Texture2D" uid="uid://ccfpi6frhepgd" path="res://stages/stage_01/stage_elements/buildings/doors/door_2_revised_50.png" id="10_5iloq"]
 [ext_resource type="Texture2D" uid="uid://sblsgjraucxi" path="res://stages/stage_01/stage_elements/buildings/doors/door_1_revised_new_50.png" id="10_gbajp"]
-[ext_resource type="PackedScene" path="res://stages/stage_01/stage_elements/tax_man_area/brick_gate/dirty_brick_wall_gate.tscn" id="10_nq7xs"]
+[ext_resource type="PackedScene" uid="uid://c7vnwwroq7va" path="res://stages/stage_01/stage_elements/tax_man_area/brick_gate/dirty_brick_wall_gate.tscn" id="10_nq7xs"]
 [ext_resource type="Texture2D" uid="uid://k1o6b34fd3cm" path="res://stages/stage_01/stage_elements/buildings/foster_mart/area_2_rocks_revised.png" id="10_oy6ry"]
 [ext_resource type="Texture2D" uid="uid://dt36h10hb1mpc" path="res://stages/stage_01/stage_elements/tax_man_area/tax_man_floor_chess.png" id="10_t7pvb"]
-[ext_resource type="Script" path="res://addons/quiver.beat_em_up/utilities/custom_nodes/quiver_fence.gd" id="10_u6nh0"]
-[ext_resource type="Shader" path="res://stages/stage_01/hard_light.gdshader" id="10_yubb3"]
+[ext_resource type="Script" uid="uid://hvw7bdxg77q0" path="res://addons/quiver.beat_em_up/utilities/custom_nodes/quiver_fence.gd" id="10_u6nh0"]
+[ext_resource type="Shader" uid="uid://ss5jetlmr0o5" path="res://stages/stage_01/hard_light.gdshader" id="10_yubb3"]
 [ext_resource type="Texture2D" uid="uid://1cocp0o1ua5f" path="res://stages/stage_01/stage_elements/fence/chainlink_fence_middle_pole.png" id="11_4ptr3"]
 [ext_resource type="Texture2D" uid="uid://1kf8i7y5yoon" path="res://stages/stage_01/stage_elements/buildings/foster_mart/area_2_foster_mart_sign.png" id="11_184aj"]
 [ext_resource type="Texture2D" uid="uid://dtww3alsrhm43" path="res://stages/stage_01/stage_elements/tax_man_area/tax_man_pilar_leftside.png" id="11_i6iyd"]
@@ -46,32 +46,32 @@
 [ext_resource type="Texture2D" uid="uid://bfsf12el1igux" path="res://stages/stage_01/stage_elements/fence/chainlink_fence_revised__01.png" id="13_725xq"]
 [ext_resource type="Texture2D" uid="uid://dtgtx0h0eh5y1" path="res://stages/stage_01/stage_elements/buildings/signs/anime_girl/anime_girl_poster_purlple.png" id="13_r4xmg"]
 [ext_resource type="Texture2D" uid="uid://dji2wpv6hk84w" path="res://stages/stage_01/stage_elements/fence/chainlink_fence_revised__02.png" id="14_62tf3"]
-[ext_resource type="PackedScene" path="res://stages/stage_01/stage_elements/buildings/signs/love_yourself/love_yourself_sign.tscn" id="14_h8n7k"]
+[ext_resource type="PackedScene" uid="uid://b0rrh0i6tcxsh" path="res://stages/stage_01/stage_elements/buildings/signs/love_yourself/love_yourself_sign.tscn" id="14_h8n7k"]
 [ext_resource type="Texture2D" uid="uid://b5niuxuhp4w3p" path="res://stages/stage_01/stage_elements/pavement/area_2_crosswalk.png" id="15_8gqbu"]
-[ext_resource type="Script" path="res://stages/stage_01/tax_man_room_light.gd" id="16_rlks8"]
-[ext_resource type="Script" path="res://addons/quiver.beat_em_up/utilities/custom_nodes/quiver_fight_room.gd" id="17_cjfi2"]
-[ext_resource type="Script" path="res://addons/quiver.beat_em_up/utilities/custom_nodes/enemy_spawner/quiver_enemy_spawner.gd" id="18_5ae2i"]
+[ext_resource type="Script" uid="uid://uqr2umih0syf" path="res://stages/stage_01/tax_man_room_light.gd" id="16_rlks8"]
+[ext_resource type="Script" uid="uid://dkq14jklse65c" path="res://addons/quiver.beat_em_up/utilities/custom_nodes/quiver_fight_room.gd" id="17_cjfi2"]
+[ext_resource type="Script" uid="uid://djseaek542r10" path="res://addons/quiver.beat_em_up/utilities/custom_nodes/enemy_spawner/quiver_enemy_spawner.gd" id="18_5ae2i"]
 [ext_resource type="PackedScene" uid="uid://2jhcwfmlrylb" path="res://characters/enemies/sargent/sarge.tscn" id="19_etsee"]
 [ext_resource type="Texture2D" uid="uid://drgfnuqqfrg4b" path="res://stages/stage_01/stage_elements/pavement/tax_man_streetlines.png" id="19_tfj0g"]
-[ext_resource type="Script" path="res://addons/quiver.beat_em_up/utilities/custom_nodes/quiver_player_detector.gd" id="21_ge31n"]
+[ext_resource type="Script" uid="uid://bw2efn4pe8d3t" path="res://addons/quiver.beat_em_up/utilities/custom_nodes/quiver_player_detector.gd" id="21_ge31n"]
 [ext_resource type="Texture2D" uid="uid://10s4duduxokp" path="res://stages/stage_01/stage_elements/vending_machines/vending_machines_clean_separated_yellow_50.png" id="28_f64gi"]
 [ext_resource type="Texture2D" uid="uid://d2ayfbynawa4b" path="res://stages/stage_01/stage_elements/vending_machines/vending_machine_tags_separated_3_50.png" id="29_70lla"]
 [ext_resource type="Texture2D" uid="uid://b1t7e4lf2fjru" path="res://stages/stage_01/stage_elements/buildings/windows/narrow/window_2.png" id="30_5joav"]
 [ext_resource type="Texture2D" uid="uid://c1nig7r42sdk6" path="res://stages/stage_01/stage_elements/vending_machines/vending_machines_clean_separated_red_50.png" id="30_8bcgp"]
 [ext_resource type="PackedScene" uid="uid://bxihsfc3uo5rv" path="res://stages/stage_01/stage_elements/street_poles/lamp_poles/lamp_pole.tscn" id="31_n3xtr"]
 [ext_resource type="Texture2D" uid="uid://ckx7onkorw05s" path="res://stages/stage_01/stage_elements/street_poles/telephone_pole_revised_1_50.png" id="34_wrols"]
-[ext_resource type="Shader" path="res://characters/enemies/tax_man/resources/silhouette.gdshader" id="36_84oqi"]
+[ext_resource type="Shader" uid="uid://dhuisu0wlxcmr" path="res://characters/enemies/tax_man/resources/silhouette.gdshader" id="36_84oqi"]
 [ext_resource type="Texture2D" uid="uid://ct0e5tvx2qiq6" path="res://stages/stage_01/stage_elements/decorations/area_2_bamboo1_2.png" id="37_lr1et"]
 [ext_resource type="Texture2D" uid="uid://64cy35dxtdah" path="res://stages/stage_01/stage_elements/street_poles/post_box/postbox_tagged.png" id="39_n2yay"]
 [ext_resource type="Texture2D" uid="uid://wgg3w6gnvakg" path="res://stages/stage_01/stage_elements/street_poles/post_box/postbox_clean.png" id="40_fyh1w"]
 [ext_resource type="Texture2D" uid="uid://dh7tejawvukva" path="res://stages/stage_01/stage_elements/street_poles/metal_post.png" id="50_pgs7w"]
 [ext_resource type="Texture2D" uid="uid://dx5n25lg03m3j" path="res://stages/stage_01/stage_elements/tax_man_area/tax_man_black_marble.png" id="56_t2mje"]
 [ext_resource type="PackedScene" uid="uid://dwgxqe6h48x4e" path="res://characters/enemies/tax_man/tax_man.tscn" id="59_jn7co"]
-[ext_resource type="PackedScene" path="res://stages/stage_01/stage_elements/tax_man_area/tax_man_throne.tscn" id="60_60ghw"]
-[ext_resource type="PackedScene" path="res://stages/stage_01/stage_elements/gates/tori_gate/tori_gate.tscn" id="60_mx5oi"]
-[ext_resource type="Script" path="res://addons/quiver.beat_em_up/combat/collision_areas/quiver_wall_hit_box.gd" id="62_je6pb"]
-[ext_resource type="Script" path="res://addons/quiver.beat_em_up/combat/quiver_attack_data.gd" id="63_6am3i"]
-[ext_resource type="Script" path="res://addons/quiver.beat_em_up/utilities/custom_nodes/enemy_spawner/quiver_spawn_data.gd" id="70_we574"]
+[ext_resource type="PackedScene" uid="uid://7sykxo6jfibo" path="res://stages/stage_01/stage_elements/tax_man_area/tax_man_throne.tscn" id="60_60ghw"]
+[ext_resource type="PackedScene" uid="uid://bjm1ndv32ebpa" path="res://stages/stage_01/stage_elements/gates/tori_gate/tori_gate.tscn" id="60_mx5oi"]
+[ext_resource type="Script" uid="uid://bguygknjfo1g" path="res://addons/quiver.beat_em_up/combat/collision_areas/quiver_wall_hit_box.gd" id="62_je6pb"]
+[ext_resource type="Script" uid="uid://dx16ufs382ffl" path="res://addons/quiver.beat_em_up/combat/quiver_attack_data.gd" id="63_6am3i"]
+[ext_resource type="Script" uid="uid://cl37rjagkp02n" path="res://addons/quiver.beat_em_up/utilities/custom_nodes/enemy_spawner/quiver_spawn_data.gd" id="70_we574"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_fe6v1"]
 shader = ExtResource("10_yubb3")
@@ -100,9 +100,9 @@ gradient = SubResource("Gradient_ebne2")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_jq4kj"]
 shader = ExtResource("5_iqlbw")
+shader_parameter/gradient = SubResource("GradientTexture1D_dm7o6")
 shader_parameter/is_active = true
 shader_parameter/show_grayscale = false
-shader_parameter/gradient = SubResource("GradientTexture1D_dm7o6")
 
 [sub_resource type="Gradient" id="Gradient_6kqft"]
 resource_local_to_scene = true
@@ -116,9 +116,9 @@ gradient = SubResource("Gradient_6kqft")
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_o8ik0"]
 shader = ExtResource("5_iqlbw")
+shader_parameter/gradient = SubResource("GradientTexture1D_b5con")
 shader_parameter/is_active = true
 shader_parameter/show_grayscale = false
-shader_parameter/gradient = SubResource("GradientTexture1D_b5con")
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_nuxeb"]
 polygon = PackedVector2Array(-30, -1178, 1345, 185, 125, 193, -47, 202)

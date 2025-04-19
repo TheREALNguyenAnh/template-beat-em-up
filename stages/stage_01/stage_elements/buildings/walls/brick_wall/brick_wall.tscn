@@ -1,8 +1,8 @@
-[gd_scene load_steps=7 format=3]
+[gd_scene load_steps=7 format=3 uid="uid://odq5jwgpq8ao"]
 
-[ext_resource type="Shader" path="res://stages/_base/skyboxes/gradient_map.gdshader" id="1_eics1"]
+[ext_resource type="Shader" uid="uid://bt6ae252tuxdm" path="res://stages/_base/skyboxes/gradient_map.gdshader" id="1_eics1"]
 [ext_resource type="Texture2D" uid="uid://bwcbufs45uo2m" path="res://stages/stage_01/stage_elements/buildings/walls/brick_wall/brick_pattern_grayscale.png" id="1_jk1bf"]
-[ext_resource type="Script" path="res://stages/stage_01/stage_elements/buildings/walls/brick_wall/brick_wall.gd" id="3_ulpfj"]
+[ext_resource type="Script" uid="uid://d4m5kxioaeiqx" path="res://stages/stage_01/stage_elements/buildings/walls/brick_wall/brick_wall.gd" id="3_ulpfj"]
 
 [sub_resource type="Gradient" id="Gradient_kv5un"]
 resource_local_to_scene = true

@@ -1,11 +1,11 @@
 [gd_scene load_steps=20 format=3 uid="uid://c4l1tfqymlsbi"]
 
 [ext_resource type="Theme" uid="uid://brlect5oi7d4w" path="res://ui/_base/theme_template.tres" id="1_2dr55"]
-[ext_resource type="Script" path="res://ui/end_screen/end_screen.gd" id="1_ll1aa"]
+[ext_resource type="Script" uid="uid://7bushq35m8k0" path="res://ui/end_screen/end_screen.gd" id="1_ll1aa"]
 [ext_resource type="Texture2D" uid="uid://d1km5hwxdeda5" path="res://ui/_base/pngs/menu_color_stripes.png" id="3_ymwy3"]
 [ext_resource type="Texture2D" uid="uid://ldayfdi122qs" path="res://ui/pause_menu/pngs/buttons/restart_normal.png" id="4_q67g1"]
-[ext_resource type="Script" path="res://ui/_base/DoubleMaskMarginContainer.gd" id="4_rdvaw"]
-[ext_resource type="Script" path="res://ui/_base/DoubleMaskTextureButton.gd" id="5_2bwsg"]
+[ext_resource type="Script" uid="uid://dxr7tkleekgkx" path="res://ui/_base/DoubleMaskMarginContainer.gd" id="4_rdvaw"]
+[ext_resource type="Script" uid="uid://cj4tkfwkjx4an" path="res://ui/_base/DoubleMaskTextureButton.gd" id="5_2bwsg"]
 [ext_resource type="Texture2D" uid="uid://4cevig5i8foe" path="res://ui/pause_menu/pngs/buttons/restart_pressed.png" id="6_7s0xi"]
 [ext_resource type="Texture2D" uid="uid://dcogkaqvot5yr" path="res://ui/pause_menu/pngs/buttons/quit_normal.png" id="6_gep11"]
 [ext_resource type="Texture2D" uid="uid://dlanys6bpionb" path="res://ui/pause_menu/pngs/buttons/restart_hover.png" id="7_tye0q"]
@@ -115,9 +115,9 @@ tracks/2/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_83bbo"]
 _data = {
-"RESET": SubResource("Animation_8g40m"),
-"closed": SubResource("Animation_p2hkm"),
-"open": SubResource("Animation_3bprg")
+&"RESET": SubResource("Animation_8g40m"),
+&"closed": SubResource("Animation_p2hkm"),
+&"open": SubResource("Animation_3bprg")
 }
 
 [node name="EndScreen" type="Control"]

@@ -1,11 +1,11 @@
 [gd_scene load_steps=2 format=3 uid="uid://cxbwlv8kplvdg"]
 
-[ext_resource type="Script" path="res://addons/quiver.beat_em_up/custom_inspectors/collision_shape_types/collision_type_selector.gd" id="1_s75l0"]
+[ext_resource type="Script" uid="uid://dfgcl26lrvm8j" path="res://addons/quiver.beat_em_up/custom_inspectors/collision_shape_types/collision_type_selector.gd" id="1_s75l0"]
 
 [node name="CollisionTypeSelector" type="HBoxContainer"]
 offset_right = 40.0
 offset_bottom = 40.0
-script = ExtResource( "1_s75l0" )
+script = ExtResource("1_s75l0")
 
 [node name="Label" type="Label" parent="."]
 offset_top = 7.0

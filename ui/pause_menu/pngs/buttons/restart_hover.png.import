@@ -16,9 +16,9 @@ dest_files=["res://.godot/imported/restart_hover.png-65f7f79441b3619f040102ca1ae
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false

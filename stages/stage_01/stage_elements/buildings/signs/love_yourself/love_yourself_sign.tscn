@@ -1,7 +1,7 @@
-[gd_scene load_steps=4 format=3]
+[gd_scene load_steps=4 format=3 uid="uid://b0rrh0i6tcxsh"]
 
 [ext_resource type="Texture2D" uid="uid://2fuc4ki1i5e2" path="res://stages/stage_01/stage_elements/buildings/signs/love_yourself/pngs/love_yourself_sign_base.png" id="1_jfv68"]
-[ext_resource type="SpriteFrames" path="res://stages/stage_01/stage_elements/buildings/signs/love_yourself/love_yourself_sign_sprite_frames.tres" id="2_u7vyt"]
+[ext_resource type="SpriteFrames" uid="uid://8dr3b6bq3gla" path="res://stages/stage_01/stage_elements/buildings/signs/love_yourself/love_yourself_sign_sprite_frames.tres" id="2_u7vyt"]
 [ext_resource type="Texture2D" uid="uid://bpd8ommbaqxo7" path="res://stages/stage_01/stage_elements/buildings/signs/love_yourself/pngs/love_yourself_sign_lights_base.png" id="10_6wja4"]
 
 [node name="LoveYourselSign" type="Sprite2D"]

@@ -1,14 +1,14 @@
 [gd_scene load_steps=34 format=3 uid="uid://chmbp4a1d41k0"]
 
 [ext_resource type="Texture2D" uid="uid://egjhs2885c00" path="res://stages/stage_01/stage_elements/skyboxes/area_1_skybox_1_0.png" id="1_f6u5w"]
-[ext_resource type="Shader" path="res://stages/_base/skyboxes/gradient_map.gdshader" id="1_vpob3"]
+[ext_resource type="Shader" uid="uid://bt6ae252tuxdm" path="res://stages/_base/skyboxes/gradient_map.gdshader" id="1_vpob3"]
 [ext_resource type="Texture2D" uid="uid://d204xxt3ynf3w" path="res://stages/stage_01/stage_elements/skyboxes/area_1_skybox_1_1.png" id="2_mvoff"]
-[ext_resource type="Script" path="res://stages/_base/skyboxes/skybox.gd" id="2_tgyol"]
+[ext_resource type="Script" uid="uid://dy0akedorft5u" path="res://stages/_base/skyboxes/skybox.gd" id="2_tgyol"]
 [ext_resource type="Texture2D" uid="uid://cagmug6l4do2d" path="res://stages/stage_01/stage_elements/skyboxes/area_1_skybox_1_2.png" id="3_w15ne"]
 [ext_resource type="Texture2D" uid="uid://crhmtrragtcys" path="res://stages/stage_01/stage_elements/skyboxes/area_1_skybox_1_3.png" id="4_i5v0l"]
 [ext_resource type="Texture2D" uid="uid://byws334rpqvi0" path="res://stages/stage_01/stage_elements/skyboxes/area_1_skybox_1_5.png" id="5_wwtyb"]
-[ext_resource type="Script" path="res://stages/_base/skyboxes/skybox_extra_texture_data.gd" id="8_eudom"]
-[ext_resource type="Script" path="res://stages/_base/skyboxes/skybox_gradient_transitioner.gd" id="9_65dxk"]
+[ext_resource type="Script" uid="uid://cwj57sjfsdto1" path="res://stages/_base/skyboxes/skybox_extra_texture_data.gd" id="8_eudom"]
+[ext_resource type="Script" uid="uid://ba6v6mrl22b2a" path="res://stages/_base/skyboxes/skybox_gradient_transitioner.gd" id="9_65dxk"]
 
 [sub_resource type="Gradient" id="Gradient_ndvfh"]
 offsets = PackedFloat32Array(0, 0.259, 0.435, 0.656, 0.972)
@@ -20,9 +20,9 @@ width = 1024
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3tgxg"]
 shader = ExtResource("1_vpob3")
+shader_parameter/gradient = SubResource("GradientTexture1D_y38n7")
 shader_parameter/is_active = true
 shader_parameter/show_grayscale = false
-shader_parameter/gradient = SubResource("GradientTexture1D_y38n7")
 
 [sub_resource type="Gradient" id="Gradient_odxjl"]
 offsets = PackedFloat32Array(0, 0.259, 0.435, 0.656, 0.972)

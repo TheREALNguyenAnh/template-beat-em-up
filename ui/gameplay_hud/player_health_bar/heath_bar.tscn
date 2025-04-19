@@ -1,8 +1,8 @@
-[gd_scene load_steps=10 format=3]
+[gd_scene load_steps=10 format=3 uid="uid://fejnij6noxrm"]
 
-[ext_resource type="Shader" path="res://stages/_base/skyboxes/gradient_map.gdshader" id="1_5vwca"]
+[ext_resource type="Shader" uid="uid://bt6ae252tuxdm" path="res://stages/_base/skyboxes/gradient_map.gdshader" id="1_5vwca"]
 [ext_resource type="Texture2D" uid="uid://c6nkyms2syhae" path="res://ui/gameplay_hud/player_health_bar/pngs/health_bar_base.png" id="2_407v3"]
-[ext_resource type="Script" path="res://ui/gameplay_hud/player_health_bar/heath_bar.gd" id="3_6xonp"]
+[ext_resource type="Script" uid="uid://dt21lwxyec1om" path="res://ui/gameplay_hud/player_health_bar/heath_bar.gd" id="3_6xonp"]
 [ext_resource type="Texture2D" uid="uid://dpf7r7ecvk7h2" path="res://ui/gameplay_hud/player_health_bar/pngs/heart_icon.png" id="4_q3o2l"]
 [ext_resource type="Texture2D" uid="uid://bd5givokq2om3" path="res://ui/gameplay_hud/player_health_bar/pngs/health_bar_under.png" id="5_00mk8"]
 [ext_resource type="Texture2D" uid="uid://cqfeogfy70knc" path="res://ui/gameplay_hud/player_health_bar/pngs/health_bar_progress.png" id="6_r2lmd"]

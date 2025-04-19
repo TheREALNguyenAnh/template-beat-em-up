@@ -1,8 +1,8 @@
-[gd_scene load_steps=10 format=3]
+[gd_scene load_steps=10 format=3 uid="uid://c253whjw6nav7"]
 
 [ext_resource type="Texture2D" uid="uid://c4jvwiedaique" path="res://stages/stage_01/stage_elements/buildings/chicken_king/pngs/chicken_king_billboard.png" id="1_afu3b"]
 [ext_resource type="Texture2D" uid="uid://74ke1uedy0t4" path="res://stages/stage_01/stage_elements/buildings/chicken_king/pngs/spot_lights.png" id="2_8xxtv"]
-[ext_resource type="Shader" path="res://stages/stage_01/hard_light.gdshader" id="3_lql4b"]
+[ext_resource type="Shader" uid="uid://ss5jetlmr0o5" path="res://stages/stage_01/hard_light.gdshader" id="3_lql4b"]
 [ext_resource type="Texture2D" uid="uid://db75knkd2jlnd" path="res://stages/stage_01/stage_elements/buildings/chicken_king/pngs/spot_lights_pin_light.png" id="4_islvs"]
 [ext_resource type="Texture2D" uid="uid://bweaxct2spy6s" path="res://stages/stage_01/stage_elements/buildings/chicken_king/pngs/spot_lights_wite_light.png" id="5_pmojt"]
 
@@ -67,8 +67,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_sxnk8"]
 _data = {
-"RESET": SubResource("Animation_wl4x2"),
-"loop": SubResource("Animation_fg2wb")
+&"RESET": SubResource("Animation_wl4x2"),
+&"loop": SubResource("Animation_fg2wb")
 }
 
 [node name="ChickenKingBillboard" type="Sprite2D"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3]
+[gd_scene load_steps=7 format=3 uid="uid://k26o3jrcn55g"]
 
 [ext_resource type="Texture2D" uid="uid://ot8vr2fu8n7l" path="res://stages/stage_01/stage_elements/decorations/lantern/lanterns_1_50.png" id="1_djk2h"]
 [ext_resource type="Texture2D" uid="uid://bvpevd2ij0rpo" path="res://stages/stage_01/stage_elements/decorations/lantern/lanterns_2_50.png" id="2_l6vjl"]
@@ -64,8 +64,8 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_88r37"]
 _data = {
-"RESET": SubResource("Animation_77u1a"),
-"loop": SubResource("Animation_5v1ty")
+&"RESET": SubResource("Animation_77u1a"),
+&"loop": SubResource("Animation_5v1ty")
 }
 
 [node name="Lanterns" type="Sprite2D"]

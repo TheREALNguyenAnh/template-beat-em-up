@@ -16,9 +16,9 @@ dest_files=["res://.godot/imported/side_smoke_0085.png-498d9c00cc96637e13887b285
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false

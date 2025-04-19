@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3]
+[gd_scene load_steps=7 format=3 uid="uid://yv13d41svtjd"]
 
 [ext_resource type="Texture2D" uid="uid://blofsl7ycu33j" path="res://stages/stage_01/stage_elements/decorations/christmas_lights/christmas_lights_1_50.png" id="1_oswu4"]
 [ext_resource type="Texture2D" uid="uid://bs7acr3bordyg" path="res://stages/stage_01/stage_elements/decorations/christmas_lights/christams_lights_2_50.png" id="2_0v5x8"]
@@ -39,8 +39,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_bm8ar"]
 _data = {
-"RESET": SubResource("Animation_wlbk8"),
-"loop": SubResource("Animation_o532e")
+&"RESET": SubResource("Animation_wlbk8"),
+&"loop": SubResource("Animation_o532e")
 }
 
 [node name="ChristmasLights" type="Sprite2D"]

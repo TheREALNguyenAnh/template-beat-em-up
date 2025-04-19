@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://co7qc6m4h7en4"]
 
-[ext_resource type="Script" path="res://addons/quiver.beat_em_up/custom_inspectors/create_new_action/create_new_action_widget.gd" id="1_g6tmv"]
+[ext_resource type="Script" uid="uid://najeo35pwe2l" path="res://addons/quiver.beat_em_up/custom_inspectors/create_new_action/create_new_action_widget.gd" id="1_g6tmv"]
 
 [node name="CreateNewActionWidget" type="HBoxContainer"]
 offset_right = 253.0

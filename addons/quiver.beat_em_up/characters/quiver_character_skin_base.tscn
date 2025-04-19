@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bkfvltx0n6b8y"]
 
-[ext_resource type="Script" path="res://addons/quiver.beat_em_up/characters/quiver_character_skin_anim_tree.gd" id="1_nsabc"]
+[ext_resource type="Script" uid="uid://djlee0hg458w5" path="res://addons/quiver.beat_em_up/characters/quiver_character_skin_anim_tree.gd" id="1_nsabc"]
 
 [node name="CharacterSkinBase" type="Node2D"]
 script = ExtResource("1_nsabc")

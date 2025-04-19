@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene load_steps=3 format=3 uid="uid://bjm1ndv32ebpa"]
 
 [ext_resource type="Texture2D" uid="uid://dt1bn64h1o4s4" path="res://stages/stage_01/stage_elements/gates/tori_gate/tori_gate_back.png" id="1_vb7rm"]
 [ext_resource type="Texture2D" uid="uid://eot6j1vb6jqh" path="res://stages/stage_01/stage_elements/gates/tori_gate/tori_gate_front.png" id="2_hw1c3"]

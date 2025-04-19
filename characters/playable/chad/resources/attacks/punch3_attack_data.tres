@@ -1,6 +1,6 @@
-[gd_resource type="Resource" load_steps=2 format=3 uid="uid://bgbpy28lgkuc3"]
+[gd_resource type="Resource" script_class="QuiverAttackData" load_steps=2 format=3 uid="uid://bgbpy28lgkuc3"]
 
-[ext_resource type="Script" path="res://addons/quiver.beat_em_up/combat/quiver_attack_data.gd" id="1_6u5jb"]
+[ext_resource type="Script" uid="uid://dx16ufs382ffl" path="res://addons/quiver.beat_em_up/combat/quiver_attack_data.gd" id="1_6u5jb"]
 
 [resource]
 script = ExtResource("1_6u5jb")

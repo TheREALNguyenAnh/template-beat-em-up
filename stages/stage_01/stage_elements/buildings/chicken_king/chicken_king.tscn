@@ -1,7 +1,7 @@
-[gd_scene load_steps=7 format=3]
+[gd_scene load_steps=7 format=3 uid="uid://ce8daiikx2t5a"]
 
 [ext_resource type="Texture2D" uid="uid://cjfpv8ltxsxi" path="res://stages/stage_01/stage_elements/buildings/chicken_king/pngs/chicken_king_base.png" id="1_k81dk"]
-[ext_resource type="Script" path="res://stages/stage_01/stage_elements/buildings/chicken_king/chicken_king.gd" id="1_k84xw"]
+[ext_resource type="Script" uid="uid://fmanmu0d4hxk" path="res://stages/stage_01/stage_elements/buildings/chicken_king/chicken_king.gd" id="1_k84xw"]
 [ext_resource type="Texture2D" uid="uid://dmu7ya6xpolj4" path="res://stages/stage_01/stage_elements/buildings/chicken_king/pngs/chicken_king_window_covers.png" id="2_cpt7q"]
 [ext_resource type="Texture2D" uid="uid://caaj8xsspr102" path="res://stages/stage_01/stage_elements/buildings/chicken_king/pngs/chicken_king_front_banner.png" id="3_qf5r1"]
 [ext_resource type="Texture2D" uid="uid://b3eketsxoly0e" path="res://stages/stage_01/stage_elements/buildings/chicken_king/pngs/chicken_king_top.png" id="4_vlj2i"]

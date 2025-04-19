@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://gelnbc2b13u5"]
 
-[ext_resource type="Script" path="res://addons/quiver.beat_em_up/utilities/helpers/autoload/transitions/screen_transitions.gd" id="1_7okro"]
-[ext_resource type="Shader" path="res://addons/quiver.beat_em_up/utilities/helpers/autoload/transitions/screen_transitions.gdshader" id="1_l4pkw"]
+[ext_resource type="Script" uid="uid://c0uhutbtoh6s5" path="res://addons/quiver.beat_em_up/utilities/helpers/autoload/transitions/screen_transitions.gd" id="1_7okro"]
+[ext_resource type="Shader" uid="uid://bk0q54o2hp4au" path="res://addons/quiver.beat_em_up/utilities/helpers/autoload/transitions/screen_transitions.gdshader" id="1_l4pkw"]
 [ext_resource type="Texture2D" uid="uid://jiypbvvm3mw6" path="res://addons/quiver.beat_em_up/utilities/helpers/autoload/transitions/game_transition_mask.png" id="2_6ok31"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_row67"]
@@ -129,9 +129,9 @@ tracks/2/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_mw47k"]
 _data = {
-"RESET": SubResource("Animation_xlay8"),
-"fade_in_transition": SubResource("Animation_s3auf"),
-"fade_out_transition": SubResource("Animation_7qk76")
+&"RESET": SubResource("Animation_xlay8"),
+&"fade_in_transition": SubResource("Animation_s3auf"),
+&"fade_out_transition": SubResource("Animation_7qk76")
 }
 
 [node name="ScreenTransitions" type="CanvasLayer"]

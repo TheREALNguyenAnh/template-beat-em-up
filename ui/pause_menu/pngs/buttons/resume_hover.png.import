@@ -16,9 +16,9 @@ dest_files=["res://.godot/imported/resume_hover.png-cdd28978a18ec76d4d88a350fae7
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false
